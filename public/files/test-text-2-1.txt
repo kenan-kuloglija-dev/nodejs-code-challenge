@@ -1,0 +1,1 @@
+other [bla www.first.com asdfasdf www.second.com truc] example [ https://www.gpp.io/ ] fg - match www.lipsum.com[www.google.com] [www.second.com]
