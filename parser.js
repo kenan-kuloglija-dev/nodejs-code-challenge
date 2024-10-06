@@ -3,10 +3,11 @@ import { procesUrl } from './urlProcessor.js';
 const squareBracketsRegex = /(?<!\\)\[(?:[^\[\]]|\\\[|\\\]|(?<!\\)\[[^\[\]]*(?:[^\[\]]|(?<!\\)\[[^\[\]]*\])*\])*\]/g;
 const urlPattern = /www\.[a-zA-Z0-9\-]+\.[a-zA-Z]{2,}/g;
 
+let matchedUrls = [];
+
 export const checkForUrls = async (dataChunk) => {
     let match;
     let lastIndex = 0;
-    let matchedUrls = [];
 
     while ((match = squareBracketsRegex.exec(dataChunk)) !== null) {
         const string = match[0];
