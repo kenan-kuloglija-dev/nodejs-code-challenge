@@ -31,18 +31,23 @@ There is also a `public` folder that includes some test `.txt` files for demonst
    npm install
 
 #### Running the Application ####
+
+To run the application, use the following command:
    ```bash 
-   npm install
+   npm start <relative-path-to-your-text-file>
 ```
 #### Running all tests ####
+To run both unit and integration test, use the following command:
    ```bash 
     npm test
 ```
 #### Running Unit Test ####
+To run the unit test, use the following command:
    ```bash 
     npm test parser.test.js
 ```
 #### Running Integration Test ####
+To run the integration test, use the following command:
    ```bash 
     npm test challengeScript.test.js
 ```
