@@ -31,25 +31,21 @@ There is also a `public` folder that includes some test `.txt` files for demonst
    npm install
 
 ### Running the Application ###
-
-npm start <relative-path-to-your-text-file>
-
-Example: npm start ./public/files/test-text-5.txt
-
-### Running the Application ###
-
-## Running all tests ##
-
-npm test
-
-## Running Unit Test ##
-
-npm test parser.test.js
-
-## Running Integration Test ##
-
-npm test challengeScript.test.js
-
+   ```bash 
+   npm install
+```
+### Running all tests ###
+   ```bash 
+    npm test
+```
+### Running Unit Test ###
+   ```bash 
+    npm test parser.test.js
+```
+### Running Integration Test ###
+   ```bash 
+    npm test challengeScript.test.js
+```
 ### Contribution guidelines ###
 
 * Write tests for any new functionality.
@@ -57,4 +53,4 @@ npm test challengeScript.test.js
 
 ### Who do I talk to? ###
 
-* Repo owner: [Kenan Kuloglija](kkuloglija@gmail.com)
+* Repo owner: Kenan Kuloglija
