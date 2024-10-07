@@ -1,29 +1,60 @@
-# README #
+# NODEJS CODE CHALLENGE README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This repository contains a project for parsing text files and handling URLs that follow specific rules. It includes three script files: `challengeScript.js`, `parser.js`, and `urlProcessor.js`. The project also comes with unit tests and integration tests to ensure functionality. 
+
+There is also a `public` folder that includes some test `.txt` files for demonstration purposes.
+
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Purpose: Script that is parsing a text file (if a relative path is provided to the script) or stdin stream. Parser will go through the txt document and process every unique valid URL between squared brackets. If there are more URLs within the brackets, parser will only take into consideration last URL within the brackets.
+* Version: 1.0.0
+* Main script: challengeScript.js
+
+### Prerequisites
+
+- **Node.js** (version 20 or later)
+- **Jest** (for running tests)
+### How do I get set up?
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+#### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kenan-kuloglija-dev/nodejs-code-challenge.git
+   cd nodejs-code-challenge
+
+2. Install dependencies:
+   ```bash
+   npm install
+
+### Running the Application ###
+
+npm start <relative-path-to-your-text-file>
+
+Example: npm start ./public/files/test-text-5.txt
+
+### Running the Application ###
+
+## Running all tests ##
+
+npm test
+
+## Running Unit Test ##
+
+npm test parser.test.js
+
+## Running Integration Test ##
+
+npm test challengeScript.test.js
 
 ### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+* Write tests for any new functionality.
+* Ensure code is reviewed by another team member before merging.
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* Repo owner: [Kenan Kuloglija](kkuloglija@gmail.com)
