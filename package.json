@@ -1,9 +1,10 @@
 {
   "name": "nodejs-code-challenge",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "challengeScript.js",
   "type": "module",
   "scripts": {
+    "start": "node challengeScript.js",
     "test": "jest"
   },
   "keywords": [],
