@@ -17,32 +17,32 @@ There is also a `public` folder that includes some test `.txt` files for demonst
 - **Jest** (for running tests)
 ### How do I get set up?
 
-### How do I get set up? ###
-
 #### Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/kenan-kuloglija-dev/nodejs-code-challenge.git
+   ```
+   ```bash
    cd nodejs-code-challenge
-
+    ```
 2. Install dependencies:
    ```bash
    npm install
 
-### Running the Application ###
+#### Running the Application ####
    ```bash 
    npm install
 ```
-### Running all tests ###
+#### Running all tests ####
    ```bash 
     npm test
 ```
-### Running Unit Test ###
+#### Running Unit Test ####
    ```bash 
     npm test parser.test.js
 ```
-### Running Integration Test ###
+#### Running Integration Test ####
    ```bash 
     npm test challengeScript.test.js
 ```
